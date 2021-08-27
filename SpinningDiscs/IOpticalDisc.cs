@@ -4,7 +4,10 @@ using System.Text;
 
 namespace SpinningDiscs
 {
-    class IOpticalDisc
+    public interface IOpticalDisc
     {
+        void SpinDisc();
+
+        void StoreData();
     }
 }

@@ -4,7 +4,16 @@ using System.Text;
 
 namespace SpinningDiscs
 {
-    class BaseDisc
+    public abstract class BaseDisc
     {
-    }
-}
+        public BaseDisc()
+        {
+
+        }
+
+        public abstract void ReportDiscInfo();
+
+        public abstract void WriteUsingLaser();
+
+    } 
+} 
